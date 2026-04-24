@@ -42,6 +42,7 @@ Reusable engineering patterns captured from real projects.
 - [[patterns/inline-editor-pattern|Inline Editor Pattern]]
 - [[patterns/mock-data-strategy|Mock Data Strategy]]
 - [[patterns/persistent-browser-context|Persistent Browser Context]]
+- [[patterns/playwright-e2e-harness-prepitch|Playwright E2E Harness (PrePitch)]]
 - [[patterns/pre-release-checklist|Pre-Release Checklist]]
 - [[patterns/rebar-onboarding-walkthrough|Rebar Onboarding Walkthrough]]
 - [[patterns/redis-circuit-breaker|Redis Circuit Breaker]]
@@ -108,3 +109,4 @@ tags: [pattern, example]
 ```
 
 Cross-link liberally with `[[double-bracket-syntax]]` — that's the Obsidian / Quartz convention.
+- [[stripe-mode-observability]] — tag every Stripe object with the mode it was created in so key-drift is grep-able instead of support-ticket-able
