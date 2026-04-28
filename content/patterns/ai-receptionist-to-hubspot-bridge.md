@@ -123,4 +123,4 @@ This pattern is the right fit when you're forced into polling because the upstre
 
 ## Source
 
-Built for client TextPro, Apr 2026. Lives at `apps/goodcall-sync/` in the rebar private repo. Production sync handles ~13 calls/run with 0 errors after dedup convergence (8 passes to clean inherited duplicates).
+Built for client Velocity Electric, Apr 2026. Lives at `apps/goodcall-sync/` in the rebar private repo. Production sync handles ~13 calls/run with 0 errors after dedup convergence (8 passes to clean inherited duplicates).
