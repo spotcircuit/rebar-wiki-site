@@ -31,6 +31,7 @@ Visual overviews of the framework.
 Reusable engineering patterns captured from real projects.
 
 - [[patterns/act-learn-reuse-testing|Act-Learn-Reuse Testing]]
+- [[patterns/ai-receptionist-to-hubspot-bridge|AI Receptionist → HubSpot Bridge]] — polling-based bridge for receptionist platforms with no webhooks (GoodCall, etc.); legacy v1 engagements API + phone-format-resilient dedup
 - [[patterns/claude-json-extraction|Claude JSON Extraction]]
 - [[patterns/cloudflare-pages-deploy|Cloudflare Pages Deploy]]
 - [[patterns/config-driven-routing|Config-Driven Routing]]
@@ -60,6 +61,7 @@ Architectural decisions with rationale, captured as they happen.
 Platform-level knowledge — API behavior, integration gotchas, pipeline designs.
 
 - [[platform/dora-metrics-definitions|DORA Metrics Definitions]]
+- [[platform/elevenlabs-agents|ElevenLabs Agents]] — voice-AI agent platform; pricing, telephony paths (Twilio/SIP), HubSpot/Salesforce/Stripe integrations, migration off polling-based receptionists
 - [[platform/managed-agents-setup|Managed Agents Setup]]
 - [[platform/publishing-pipeline|Publishing Pipeline]]
 - [[platform/reddit-publishing-pipeline|Reddit Publishing Pipeline]]
